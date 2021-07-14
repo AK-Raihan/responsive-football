@@ -1,0 +1,233 @@
+/* ..........................
+..................media quiere...............
+................................ */
+
+@media only screen and (max-width: 688px) {
+
+    /* header */
+
+    .header-container {
+        width: 90%;
+    }
+
+    .header-menu nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-button {
+        margin-top: 70px;
+    }
+
+    /* banner */
+
+    .banner-section {
+        padding: 0;
+    }
+
+
+    .banner-container {
+        width: 95%;
+        margin-top: 0;
+    }
+
+    .banner-item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+
+    .banner-content h1 {
+        font-size: 48px;
+    }
+
+    .banner-img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+
+
+
+    /* blog */
+
+
+    .common-container {
+        width: 100%;
+    }
+
+    .blog-players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* highlight */
+
+    .highlight-section {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    .common-container {
+        width: 100%;
+    }
+
+    .highlight-item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .highlight-content {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    /* high voltage match */
+
+    .match-items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-title h1 {
+        font-size: 35px;
+    }
+
+    .match-items .item {
+        text-align: center;
+    }
+
+    .team-item img {
+        width: 90%;
+    }
+
+
+    /* team */
+
+    .team-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .common-container {
+        width: 100%;
+    }
+
+    /* footer */
+
+    .footer-container {
+        width: 100%;
+    }
+}
+
+
+/*................ tablet...............
+..................................... */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+
+    /* header */
+
+
+    .header-container {
+        width: 90%;
+    }
+
+    .header-menu nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-button {
+        margin-top: 70px;
+    }
+
+    /* banner */
+
+
+    .banner-container {
+        width: 95%;
+        margin-top: 0;
+    }
+
+    .banner-item {
+        width: 100%;
+    }
+
+    .banner-img img {
+        width: 90%;
+    }
+
+    .banner-content h1 {
+        font-size: 38px;
+    }
+
+
+    /* blog */
+
+    .common-container {
+        width: 100%;
+    }
+
+    .blog-players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* highlight */
+
+    .highlight-section {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    .common-container {
+        width: 100%;
+    }
+
+    .highlight-item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .highlight-content {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+
+
+    /* high voltage match */
+
+    .match-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-title h1 {
+        font-size: 35px;
+    }
+
+    .match-items .item {
+        text-align: center;
+    }
+
+    .team-item img {
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+}
