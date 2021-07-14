@@ -58,6 +58,7 @@ header {
     text-align: right;
 }
 
+
 .defult-btn {
     background-image: linear-gradient(red, green);
     font-size: 17px;
@@ -67,7 +68,13 @@ header {
     position: relative;
     border: none;
     z-index: 1;
+    text-decoration: none;
 
+}
+
+.defult-btn a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .defult-btn::before {
