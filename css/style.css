@@ -22,7 +22,7 @@ p {
 header {
     display: flex;
     justify-content: center;
-    background: #195730;
+    background: #4a69bd;
     padding: 25px 0;
 }
 
@@ -60,7 +60,7 @@ header {
 
 
 .defult-btn {
-    background-image: linear-gradient(red, green);
+    background-image: linear-gradient(#244ff8, #31b2e0);
     font-size: 17px;
     padding: 10px 20px;
     color: #fff;
@@ -99,9 +99,7 @@ header {
 .banner-section {
     display: flex;
     justify-content: center;
-    /* background: #2d25a0; */
-
-    background: #195730;
+    background: #4a69bd;
     padding: 100px 0;
 }
 
@@ -116,7 +114,7 @@ header {
 }
 
 .banner-content h1 {
-    color: #fff;
+    color: #f8c291;
     font-size: 68px;
     margin-top: 80px;
     margin-bottom: 25px;
@@ -326,6 +324,12 @@ footer {
     border-radius: 50%;
     margin-left: 10px;
     text-align: center;
+    transition: .6s;
+}
+
+.footer-social-menu nav ul li a:hover {
+    color: rgb(7, 79, 214);
+    transform: scale(1.3);
 }
 
 
